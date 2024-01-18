@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Game</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>QUIZ TIME</h1>
+    <div class="question">
+        <p id="questionText"></p>
+    </div>
+    <form id="quizForm">
+        <div class="options" id="optionsContainer">
+            <!-- Options will be dynamically generated here -->
+        </div>
+        <button type="button" class="btn submit-btn" onclick="checkAnswer()">Submit</button>
+        <button type="button" class="btn retry-btn" onclick="resetQuiz()">Retry</button>
+    </form>
+    <p class="result" id="resultText"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
