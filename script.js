@@ -72,6 +72,30 @@ const customQuestions = [
         question: "what is your pet name?",
         options: ["jenny","bruno","peppa","mia"],
     correctAnswer:"jenny"
+    },
+    {
+        question: "What is the capital of India?",
+        options: ["Chennai","Rajasthan","New Delhi","Mumbai"],
+        correctAnswer: "New Delhi" 
+    },
+    {
+        question:"Which animals do we use for riding?",
+        options: ["Dog", "Car", "Cat", "Horse"],
+        correctAnswer: "Horse"
+    },
+    {
+        question:"How many legs does the elephant have?",
+        options: ["2", "4", "6", "8"],
+         correctAnswer: "4"    
+    },
+    {
+        question:"In which month mangoes grow?",
+        options:["January" , "February" , "March" , "April"],
+        correctAnswer:"March"
+    },
+    {
+        question:"Why do people hunt?",
+        options:["to kill animals" , "to find food" ,"to find water", "To eat, for their skin and bones, and for fun also"]
     }
 ];
 
